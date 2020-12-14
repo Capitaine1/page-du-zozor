@@ -1,0 +1,42 @@
+footer p,footer ul
+{
+ font-size: 0.8em;
+}
+footer h1
+{
+    font-size: 1.1em;
+}
+#tweet, #mes_photos, #mes_amis
+{
+    display: inline-block;
+    vertical-align: top;
+}
+#tweet
+{
+    width: 28%;
+}
+#mes_photos
+{
+    width: 35%;
+}
+#mes_amis
+{
+    width: 31%;
+}
+#mes_photos img
+{
+    border: 1px solid #181818;
+}
+#mes_amis ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    width: 48%;
+    padding-left: 2px;
+}
+#mes_amis a 
+{
+    text-decoration: none;
+    color: #760001;
+}

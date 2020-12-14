@@ -1,0 +1,171 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: 'learning_curve_bold';
+    src: url('police/learning_curve_alt_G_bold_ot_ps.otf');
+    src: url('police/learning_curve_bold_ot_ps.otf')
+    format('embedded-opentype'),
+url('police/learning_curve_bold_ot_tt.ttf') format('ttf'),
+ url('police/learning_curve_alt_G_bold_ot_ps.otf') format('otf');
+font-weight: normal;
+font-style: normal; 
+}
+ 
+body
+{
+    background-color: rgb(244,228, 198);
+    font-family: 'trebuchet MS',Arial,sans-serif;
+    color: #181818;
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+@media all and (max-device-width:480px)
+{
+    #bloc_page
+    {
+        margin: auto;
+    }
+}
+section h1, footer h1, nav a
+{
+    font-family: learning_curve_bold,serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/* header */
+header
+{
+    background: repeat-x bottom;
+}
+#titre_principal
+{
+    display: inline-block;
+   
+}
+header h1
+{
+    font-family: 'learnin_curve_bold', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 2px ;
+}
+#logo, hearder h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+header h2
+{
+    font-family: learning_curve_bold,serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+nav ul
+{
+    list-style-type: none ;
+  
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a 
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+@media all and ((max-device-width:480px)
+{
+    nav
+{
+    
+    width: 740px;
+    text-align: left;
+}
+
+nav li
+{
+    display: block;
+    margin-left: 4px;
+}
+nav a 
+{
+    font-size: 1.1em;
+}
+nav a:hover
+{
+    border-bottom: o;
+}
+}
+#banniere_image
+{
+    border: 1px solid 1px;
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('pont.jpeg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+@media all and (max-device-width:480px)
+{
+    #banniere_image
+    {
+        display: none;
+    }
+}
+#banniere_description
+{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24,0.8);
+    color: white;
+    font-size: 0.8em;
+}
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+    background-color: rgb(221, 96, 96);
+    border: 1px solid #760001;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 3px 8px 0px 8px ;
+    color: white;
+    text-decoration: none;
+
+}
+.image
+{
+    border-radius: 5px;
+}
